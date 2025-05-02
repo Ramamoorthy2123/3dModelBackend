@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+numpy-stl
+trimesh
+python-multipart
+cadquery
+pytransform3d
