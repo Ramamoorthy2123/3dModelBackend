@@ -141,6 +141,10 @@ async def auto_orient(files: List[UploadFile] = File(...)):
 
     return results
 
+@app.get("/")
+def read_root():
+    return {"message": "FastAPI is running"}
+
 
 if __name__ == "__main__":
     import uvicorn
